@@ -5,10 +5,10 @@ import { motion } from 'framer-motion'
 const Herocomp = () => {
   return (
     <div>
-      <div className='flex justify-center items-center lg:flex-row-reverse flex-col mt-20 lg:gap-80 gap-10'>
+      <div className='flex justify-center items-center lg:flex-row-reverse flex-col mt-20 lg:gap-80 gap-y-28 lg:gap-x-60'>
 
         <div className='flex'>
-          <motion.div className='bg-violet-900 rounded-t-full h-80 w-80 flex'
+          <motion.div className='bg-violet-900 rounded-t-full h-96 w-96 flex'
           initial={{
             opacity:0
           }}
@@ -32,10 +32,10 @@ const Herocomp = () => {
         
 
         <div className='flex-row lg:w-[40vw] w-[90vw] text-center lg:text-start'>
-          <div className='font-mono text-gray-400'>hey everyone</div>
+          <div className='font-mono text-gray-400 text-1xl lg:text-3xl'>hey everyone</div>
           <div className='flex flex-row gap-3 justify-center items-center lg:justify-start lg:items-start'>
-            <span className='lg:text-[4rem] text-[2rem] font-mono'>I'm</span>
-            <div className='lg:text-[4rem] text-[2rem] bg-gradient-to-r from-cyan-400 via-violet-600 to-violet-700 bg-clip-text text-transparent filter drop-shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] font-mono '>
+            <span className='lg:text-[6rem] text-[2rem] font-mono'>I'm</span>
+            <div className='lg:text-[6rem] text-[2rem] bg-gradient-to-r from-cyan-400 via-violet-600 to-violet-700 bg-clip-text text-transparent filter drop-shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] font-mono '>
             <Typewriter
             words={['Sabyasachi', 'Coder', 'Designer', 'learner']}
             loop={5}
