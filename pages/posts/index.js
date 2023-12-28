@@ -1,8 +1,14 @@
 import React from 'react'
+import Nav from '../components/nav'
 
 const allPostPages = () => {
   return (
-    <div>Post pages</div>
+    <div>
+        <Nav></Nav>
+        <div>
+            all posts
+        </div>
+    </div>
   )
 }
 

@@ -2,9 +2,11 @@ import React from 'react'
 import Image from 'next/image'
 import { Typewriter } from 'react-simple-typewriter'
 import { motion } from 'framer-motion'
+import Nav from '../nav'
 const Herocomp = () => {
   return (
     <div>
+      <Nav></Nav>
       <div className='flex justify-center items-center lg:flex-row-reverse flex-col mt-20 lg:gap-80 gap-y-28 lg:gap-x-60'>
 
         <div className='flex'>
