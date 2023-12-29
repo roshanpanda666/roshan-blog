@@ -3,12 +3,20 @@ import React from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 const PostItem = (props) => {
+    const{post}=props
+
+    if (!post) {
+        return null; // or handle the case where post is not available
+      }
+      
     const{title,image,excerpt,date,slug}=props.post
     const formateddate=new Date(date).toLocaleString('en-US',{
         day:'numeric',
         month:'long',
         year:'numeric'
     })
+
+    
 
     const imagepath=`/images/posts/${slug}/${image}`
 
