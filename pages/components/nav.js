@@ -3,7 +3,7 @@ import Link from "next/link";
 const Nav = () => {
   return (
     <div>
-      <div className="flex flex-row lg:gap-[60vw] gap-16 justify-center item-center mt-6">
+      <div className="flex flex-row lg:gap-[60vw] gap-10 justify-center item-center mt-6">
         <Link href='/'>
         <div className="lg:text-[2rem] text-[0.8rem] bg-gradient-to-r from-cyan-400 via-violet-600 to-violet-700 bg-clip-text text-transparent filter drop-shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] font-mono ">Sabyasachi's Blog</div>
         </Link>

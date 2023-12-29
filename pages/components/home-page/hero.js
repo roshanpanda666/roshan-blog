@@ -10,7 +10,7 @@ const Herocomp = () => {
       <div className='flex justify-center items-center lg:flex-row-reverse flex-col mt-20 lg:gap-80 gap-y-28 lg:gap-x-60'>
 
         <div className='flex'>
-          <motion.div className='bg-violet-900 rounded-t-full h-96 w-96 flex'
+          <motion.div className='bg-violet-900 rounded-t-full lg:h-96 lg:w-96 h-72 w-72 flex'
           initial={{
             opacity:0
           }}
